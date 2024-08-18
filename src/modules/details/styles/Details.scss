@@ -1,0 +1,25 @@
+.details {
+    padding: 20px;
+
+    h2 {
+        color: blue
+    }
+    .details-row {
+        display: flex;
+        gap: 100px;
+    }
+    
+    .details-row div {
+        flex: 1;
+    }
+
+    .forecast-item {
+        display: flex; 
+        gap: 10px; 
+    }
+
+    .forecast-item p {
+        margin: 0;
+        width: 200px;
+    }
+}
